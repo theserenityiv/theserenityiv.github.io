@@ -1,0 +1,82 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fdfbff;
+}
+
+/* Hero Section with lavender field background */
+.hero {
+  position: relative;
+  background: url('https://cdn.pixabay.com/photo/2017/08/06/01/01/lavender-2587065_1280.jpg') no-repeat center center/cover;
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+}
+
+/* Menu Section with floral side decoration */
+.menu {
+  background: #f4f0f9 url('https://cdn.pixabay.com/photo/2016/03/27/21/39/lavender-1284460_1280.jpg') no-repeat bottom left;
+  background-size: 200px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #7a2ca7;
+}
+
+.contact {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  color: #4a005f;
+}
+
+.menu-item {
+  background: #ffffff;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #b57edc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.menu-item h3 {
+  color: #5c257f;
+  margin-bottom: 10px;
+}
+
+.note {
+  font-style: italic;
+  margin-top: 30px;
+  color: #777;
+}
